@@ -18,7 +18,9 @@ public class Nhan2SoUseCaseControl {
 		n2so.setNumber2(inData.num2);
 		int result = n2so.nhan2So();
 		
-		out.output("Result: " + String.valueOf(result));
+		OutputData outData = new OutputData();
+		outData.result = result;
+		out.output(outData);
 	}
 
 

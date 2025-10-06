@@ -1,4 +1,4 @@
 
 public interface OutputInterface {
-	void output(String str);
+	void output(OutputData outData);
 }

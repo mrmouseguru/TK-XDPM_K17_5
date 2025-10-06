@@ -10,7 +10,7 @@ public class AppNhan2So {
 		
 		//InputInterface inWrapper = new UIConsole(sc, pw);
 		InputInterface inWrapper = new GUI();
-		OutputInterface outWrappter = new OutputWrappter(pw);
+		OutputInterface outWrappter = new UIConsoleWrapper(pw);
 		                      // dependency injection
 		Nhan2So nhan2So = new Nhan2So();
 		
